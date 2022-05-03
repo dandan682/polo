@@ -13,3 +13,6 @@ const int ValorMaximo = 100;
 Console.WriteLine("Valor maximo: " + ValorMaximo);
 Console.WriteLine("Apellido:" + Apellido);
 
+float pi = 3.14f;
+Console.WriteLine("pi: " + pi);
+
