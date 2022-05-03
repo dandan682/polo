@@ -3,9 +3,13 @@ Console.WriteLine("Hello, World!");
 
 string Apellido;
 Apellido = "Perez";
-Console.WriteLine(Apellido);
+Console.WriteLine("Apellido: " + Apellido);
 
 int edad;
 edad = 30;
-Console.WriteLine(edad);
+Console.WriteLine("Edad: " + edad);
+
+const int ValorMaximo = 100;
+Console.WriteLine("Valor maximo: " + ValorMaximo);
+Console.WriteLine("Apellido:" + Apellido);
 
