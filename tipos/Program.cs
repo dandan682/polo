@@ -12,7 +12,8 @@ decimal numeroDecimal = 0;
 float numeroFloat = 400;
 
 string texto = "Cadena";
+Console.Clear();
 Console.Write("Escriba un texto > ");
 texto = Console.ReadLine();
-Console.WriteLine("Texto: " + texto);
+Console.WriteLine("Texto: " + texto + " Otro texto");
 Console.WriteLine(Convert.ToInt32(texto));
