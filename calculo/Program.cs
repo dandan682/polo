@@ -15,4 +15,9 @@ double superficieRectangulo = baseRectangulo * alturaRectangulo;
 Console.Write("La superficie del rectangulo es: ");
 Console.WriteLine(superficieRectangulo);
 
+string uno = 123;
+string dos = 543;
+
+double total = uno + dos;
+
 Console.ReadKey();
