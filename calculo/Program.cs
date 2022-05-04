@@ -15,9 +15,10 @@ double superficieRectangulo = baseRectangulo * alturaRectangulo;
 Console.Write("La superficie del rectangulo es: ");
 Console.WriteLine(superficieRectangulo);
 
-string uno = 123;
-string dos = 543;
-
-double total = uno + dos;
+bool esMayorADiez = superficieRectangulo > 10;
+if (esMayorADiez)
+{
+    Console.WriteLine("La superficie del rectangulo es mayor a 10.");
+}
 
 Console.ReadKey();
