@@ -17,3 +17,5 @@ Console.Write("Escriba un texto > ");
 texto = Console.ReadLine();
 Console.WriteLine("Texto: " + texto + " Otro texto");
 Console.WriteLine(Convert.ToInt32(texto));
+Console.Write("Pulse una tecla para finalizar... ");
+Console.ReadKey();
