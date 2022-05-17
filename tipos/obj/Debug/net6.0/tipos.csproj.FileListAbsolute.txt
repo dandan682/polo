@@ -1,0 +1,15 @@
+/Users/yo/Polo/tipos/bin/Debug/net6.0/tipos
+/Users/yo/Polo/tipos/bin/Debug/net6.0/tipos.deps.json
+/Users/yo/Polo/tipos/bin/Debug/net6.0/tipos.runtimeconfig.json
+/Users/yo/Polo/tipos/bin/Debug/net6.0/tipos.dll
+/Users/yo/Polo/tipos/bin/Debug/net6.0/tipos.pdb
+/Users/yo/Polo/tipos/obj/Debug/net6.0/tipos.csproj.AssemblyReference.cache
+/Users/yo/Polo/tipos/obj/Debug/net6.0/tipos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yo/Polo/tipos/obj/Debug/net6.0/tipos.AssemblyInfoInputs.cache
+/Users/yo/Polo/tipos/obj/Debug/net6.0/tipos.AssemblyInfo.cs
+/Users/yo/Polo/tipos/obj/Debug/net6.0/tipos.csproj.CoreCompileInputs.cache
+/Users/yo/Polo/tipos/obj/Debug/net6.0/tipos.dll
+/Users/yo/Polo/tipos/obj/Debug/net6.0/refint/tipos.dll
+/Users/yo/Polo/tipos/obj/Debug/net6.0/tipos.pdb
+/Users/yo/Polo/tipos/obj/Debug/net6.0/tipos.genruntimeconfig.cache
+/Users/yo/Polo/tipos/obj/Debug/net6.0/ref/tipos.dll
