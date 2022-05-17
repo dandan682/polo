@@ -1,0 +1,15 @@
+/Users/yo/Polo/random/bin/Debug/net6.0/random
+/Users/yo/Polo/random/bin/Debug/net6.0/random.deps.json
+/Users/yo/Polo/random/bin/Debug/net6.0/random.runtimeconfig.json
+/Users/yo/Polo/random/bin/Debug/net6.0/random.dll
+/Users/yo/Polo/random/bin/Debug/net6.0/random.pdb
+/Users/yo/Polo/random/obj/Debug/net6.0/random.csproj.AssemblyReference.cache
+/Users/yo/Polo/random/obj/Debug/net6.0/random.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yo/Polo/random/obj/Debug/net6.0/random.AssemblyInfoInputs.cache
+/Users/yo/Polo/random/obj/Debug/net6.0/random.AssemblyInfo.cs
+/Users/yo/Polo/random/obj/Debug/net6.0/random.csproj.CoreCompileInputs.cache
+/Users/yo/Polo/random/obj/Debug/net6.0/random.dll
+/Users/yo/Polo/random/obj/Debug/net6.0/refint/random.dll
+/Users/yo/Polo/random/obj/Debug/net6.0/random.pdb
+/Users/yo/Polo/random/obj/Debug/net6.0/random.genruntimeconfig.cache
+/Users/yo/Polo/random/obj/Debug/net6.0/ref/random.dll
