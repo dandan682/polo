@@ -1,0 +1,15 @@
+/Users/yo/Polo/persona/bin/Debug/net6.0/persona
+/Users/yo/Polo/persona/bin/Debug/net6.0/persona.deps.json
+/Users/yo/Polo/persona/bin/Debug/net6.0/persona.runtimeconfig.json
+/Users/yo/Polo/persona/bin/Debug/net6.0/persona.dll
+/Users/yo/Polo/persona/bin/Debug/net6.0/persona.pdb
+/Users/yo/Polo/persona/obj/Debug/net6.0/persona.csproj.AssemblyReference.cache
+/Users/yo/Polo/persona/obj/Debug/net6.0/persona.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yo/Polo/persona/obj/Debug/net6.0/persona.AssemblyInfoInputs.cache
+/Users/yo/Polo/persona/obj/Debug/net6.0/persona.AssemblyInfo.cs
+/Users/yo/Polo/persona/obj/Debug/net6.0/persona.csproj.CoreCompileInputs.cache
+/Users/yo/Polo/persona/obj/Debug/net6.0/persona.dll
+/Users/yo/Polo/persona/obj/Debug/net6.0/refint/persona.dll
+/Users/yo/Polo/persona/obj/Debug/net6.0/persona.pdb
+/Users/yo/Polo/persona/obj/Debug/net6.0/persona.genruntimeconfig.cache
+/Users/yo/Polo/persona/obj/Debug/net6.0/ref/persona.dll
