@@ -1,5 +1,4 @@
 ﻿// Programa ejercicio 1 de la clase 9.
-
 Console.Clear();
 
 // Pide al usuario la longitud del vector.
@@ -19,9 +18,8 @@ for (int n = 0; n < numeros.Length; n++)
 }
 
 // Muestra el vector original.
-Console.WriteLine("Vector original");
-Console.WriteLine(numeros);
-foreach(int n in numeros)
+Console.WriteLine("\nVector original de aleatorios.");
+foreach(var n in numeros)
 {
     Console.Write($"{n}\t");
 }
@@ -36,10 +34,9 @@ for (int n = 0; n < numeros.Length / 2; n++)
     numeros[m--] = aux;
 }
 
-Console.WriteLine();
 // Muestra el vector invertido.
-Console.WriteLine("Vector Invertido");
-foreach (int n in numeros)
+Console.WriteLine("\nVector Invertido de aleatorios.");
+foreach (var n in numeros)
 {
     Console.Write($"{n}\t");
 }
