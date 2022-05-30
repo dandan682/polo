@@ -1,0 +1,15 @@
+/Users/yo/Polo/clase9_1/bin/Debug/net6.0/clase9_1
+/Users/yo/Polo/clase9_1/bin/Debug/net6.0/clase9_1.deps.json
+/Users/yo/Polo/clase9_1/bin/Debug/net6.0/clase9_1.runtimeconfig.json
+/Users/yo/Polo/clase9_1/bin/Debug/net6.0/clase9_1.dll
+/Users/yo/Polo/clase9_1/bin/Debug/net6.0/clase9_1.pdb
+/Users/yo/Polo/clase9_1/obj/Debug/net6.0/clase9_1.csproj.AssemblyReference.cache
+/Users/yo/Polo/clase9_1/obj/Debug/net6.0/clase9_1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yo/Polo/clase9_1/obj/Debug/net6.0/clase9_1.AssemblyInfoInputs.cache
+/Users/yo/Polo/clase9_1/obj/Debug/net6.0/clase9_1.AssemblyInfo.cs
+/Users/yo/Polo/clase9_1/obj/Debug/net6.0/clase9_1.csproj.CoreCompileInputs.cache
+/Users/yo/Polo/clase9_1/obj/Debug/net6.0/clase9_1.dll
+/Users/yo/Polo/clase9_1/obj/Debug/net6.0/refint/clase9_1.dll
+/Users/yo/Polo/clase9_1/obj/Debug/net6.0/clase9_1.pdb
+/Users/yo/Polo/clase9_1/obj/Debug/net6.0/clase9_1.genruntimeconfig.cache
+/Users/yo/Polo/clase9_1/obj/Debug/net6.0/ref/clase9_1.dll
