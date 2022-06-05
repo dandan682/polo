@@ -1,0 +1,15 @@
+/Users/yo/Polo/bingo2/bin/Debug/net6.0/bingo2
+/Users/yo/Polo/bingo2/bin/Debug/net6.0/bingo2.deps.json
+/Users/yo/Polo/bingo2/bin/Debug/net6.0/bingo2.runtimeconfig.json
+/Users/yo/Polo/bingo2/bin/Debug/net6.0/bingo2.dll
+/Users/yo/Polo/bingo2/bin/Debug/net6.0/bingo2.pdb
+/Users/yo/Polo/bingo2/obj/Debug/net6.0/bingo2.csproj.AssemblyReference.cache
+/Users/yo/Polo/bingo2/obj/Debug/net6.0/bingo2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yo/Polo/bingo2/obj/Debug/net6.0/bingo2.AssemblyInfoInputs.cache
+/Users/yo/Polo/bingo2/obj/Debug/net6.0/bingo2.AssemblyInfo.cs
+/Users/yo/Polo/bingo2/obj/Debug/net6.0/bingo2.csproj.CoreCompileInputs.cache
+/Users/yo/Polo/bingo2/obj/Debug/net6.0/bingo2.dll
+/Users/yo/Polo/bingo2/obj/Debug/net6.0/refint/bingo2.dll
+/Users/yo/Polo/bingo2/obj/Debug/net6.0/bingo2.pdb
+/Users/yo/Polo/bingo2/obj/Debug/net6.0/bingo2.genruntimeconfig.cache
+/Users/yo/Polo/bingo2/obj/Debug/net6.0/ref/bingo2.dll
