@@ -2,10 +2,10 @@
 
 Console.Clear();
 
-int[,] carton = new int[9,3];
+string[,] carton = new string[9,3];
 Random aleatorio = new Random();
+int[] guardaAleatorio = new int[carton.GetLength(1)];
 int valorAleatorio = 0;
-bool repetido;
 
 // Pide al usuario el numero de cartones.
 Console.Write("¿Cuantos cartones? ");
@@ -15,27 +15,19 @@ int totalCartones = int.Parse(Console.ReadLine());
 for (int c = 0; c < totalCartones; c++)
 {
     // Llena los cartones con numeros aleatorios.
-    for (int i = 0; i < carton.GetLength(1); i++)
+    for (int j = 0; j < carton.GetLength(0); j++)
     {
-        for (int j = 0; j < carton.GetLength(0); j++)
+        Array.Clear(guardaAleatorio, 0, guardaAleatorio.Length);
+        for (int i = 0; i < carton.GetLength(1); i++)
         {
-            // Cicla si se trata de un numero repetido.
-            do
+            // Cicla si encuentra numero repetido.
+            valorAleatorio = aleatorio.Next(10 * j + 1, 10 * j + 10);
+            while (Array.IndexOf(guardaAleatorio, valorAleatorio) >= 0)
             {
-                // Nuevo numero aleatorio en rango de la columna correspondiente.
-                valorAleatorio = aleatorio.Next(10 * j, 10 * j + 9);
-                // Valida numero repetido.
-                repetido = false;
-                for (int n = 0; n < i; n++)
-                {
-                    if (carton[j, n] == valorAleatorio)
-                    {
-                        repetido = true;
-                        break;
-                    }
-                }
-            } while (repetido);
-            carton[j, i] = valorAleatorio;
+                valorAleatorio = aleatorio.Next(10 * j + 1, 10 * j + 10);
+            }
+            guardaAleatorio[i] = valorAleatorio;
+            carton[j, i] = valorAleatorio.ToString();
         }
     }
 
@@ -47,16 +39,7 @@ for (int c = 0; c < totalCartones; c++)
         Console.Write("\n\t\t\t\t");
         for (int j = 0; j < carton.GetLength(0); j++)
         {
-            Console.Write("|");
-            if (carton[j, i] == 0)
-            {
-                Console.Write(" && ");
-            }
-            else
-            {
-                Console.Write($" {carton[j, i].ToString("D2")} ");
-            }
-            Console.Write("|");
+            Console.Write($"| {carton[j, i].PadLeft(2)} |");
         }
         Console.Write("\n\t\t\t\t+" + new string('=', 52) + "+");
     }
