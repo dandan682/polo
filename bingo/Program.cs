@@ -48,17 +48,13 @@ for (int c = 0; c < totalCartones; c++)
         for (int j = 0; j < carton.GetLength(0); j++)
         {
             Console.Write("|");
-            switch(carton[j, i])
+            if (carton[j, i] == 0)
             {
-                case 0:
-                    Console.Write(" && ");
-                    break;
-                case <10:
-                    Console.Write($" 0{carton[j, i]} ");
-                    break;
-                default:
-                    Console.Write($" {carton[j, i]} ");
-                    break;
+                Console.Write(" && ");
+            }
+            else
+            {
+                Console.Write($" {carton[j, i].ToString("D2")} ");
             }
             Console.Write("|");
         }
