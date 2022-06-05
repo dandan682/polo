@@ -2,15 +2,55 @@
 
 Console.Clear();
 
-string[,] carton = new string[9,3];
-Random aleatorio = new Random();
-int[] guardaAleatorio = new int[carton.GetLength(1)];
-int valorAleatorio = 0;
+string[,] carton = new string[3,9];
+int[] guardaAleatorio = new int[carton.GetLength(0)];
+Random crearAleatorio = new Random();
+int valorAleatorio;
 
 // Pide al usuario el numero de cartones.
 Console.Write("¿Cuantos cartones? ");
 int totalCartones = int.Parse(Console.ReadLine());
 
+// Construye los cartones.
+for (int c = 0; c < totalCartones; c++)
+{
+    // Llena los cartones con numeros aleatorios.
+    for (int j = 0; j < carton.GetLength(1); j++)
+    {
+        Array.Clear(guardaAleatorio, 0, guardaAleatorio.Length);
+        for (int i = 0; i < carton.GetLength(0); i++)
+        {
+            valorAleatorio = crearAleatorio.Next(10 * j + 1, 10 * j + 10);
+            // Cicla si encuentra numero repetido.
+            while (Array.IndexOf(guardaAleatorio, valorAleatorio) >= 0)
+            {
+                valorAleatorio = crearAleatorio.Next(10 * j + 1, 10 * j + 10);
+            }
+            guardaAleatorio[i] = valorAleatorio;
+            carton[i, j] = valorAleatorio.ToString();
+        }
+    }
+
+    // Mostramos el carton
+    Console.WriteLine($"\n"   + new string(' ',52) + $"Carton #{c + 1}");
+    Console.Write("\n\t\t\t+" + new string('=',62) + "+");
+    for (int i = 0; i < carton.GetLength(0); i++)
+    {
+        Console.Write("\n\t\t\t|");
+        for (int j = 0; j < carton.GetLength(1); j++)
+        {
+            Console.Write($"  {carton[i, j].PadLeft(2)}  |");
+        }
+        Console.Write("\n\t\t\t+" + new string('=', 62) + "+");
+    }
+    Console.WriteLine();
+}
+
+Console.ReadKey();
+
+
+
+/**
 // Construye los cartones.
 for (int c = 0; c < totalCartones; c++)
 {
@@ -47,3 +87,4 @@ for (int c = 0; c < totalCartones; c++)
 }
 
 Console.ReadKey();
+ **/
