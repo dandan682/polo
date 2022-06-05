@@ -35,12 +35,12 @@ for (int c = 0; c < totalCartones; c++)
     int filaEspacio;
     int v = 0;
 
-    for (int n = 0; n < vacios.Length; n++)
+    for (int e = 0; e < vacios.Length; e++)
     {
         valorAleatorio = regresaAleatorio(vacios, 0, 9);
-        filaEspacio = n / 4;
+        filaEspacio = e / 4;
         carton[filaEspacio, valorAleatorio] = " ";
-        if (n == 8)
+        if (e == 8)
         {           
             Array.Clear(vacios, 0, vacios.Length);
             v = 0;
