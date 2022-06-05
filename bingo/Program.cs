@@ -3,43 +3,62 @@
 Console.Clear();
 
 string[,] carton = new string[3,9];
-int[] guardaAleatorio = new int[carton.GetLength(0)];
 Random crearAleatorio = new Random();
 int valorAleatorio;
+
+// Array para evitar duplicados.
+string[] guardarAleatorio = new string[carton.GetLength(0)]; 
 
 // Pide al usuario el numero de cartones.
 Console.Write("¿Cuantos cartones? ");
 int totalCartones = int.Parse(Console.ReadLine());
 
-// Construye los cartones.
+// Ciclo del set de cartones.
 for (int c = 0; c < totalCartones; c++)
 {
-    // Llena los cartones con numeros aleatorios.
-    for (int j = 0; j < carton.GetLength(1); j++)
+    // Inicia ciclo del carton[c] para llenarlo de numeros aleatorios.
+    for (int columna = 0; columna < carton.GetLength(1); columna++)
     {
-        Array.Clear(guardaAleatorio, 0, guardaAleatorio.Length);
-        for (int i = 0; i < carton.GetLength(0); i++)
+        Array.Clear(guardarAleatorio, 0, guardarAleatorio.Length);
+        for (int fila = 0; fila < carton.GetLength(0); fila++)
         {
-            valorAleatorio = crearAleatorio.Next(10 * j + 1, 10 * j + 10);
-            // Cicla si encuentra numero repetido.
-            while (Array.IndexOf(guardaAleatorio, valorAleatorio) >= 0)
-            {
-                valorAleatorio = crearAleatorio.Next(10 * j + 1, 10 * j + 10);
-            }
-            guardaAleatorio[i] = valorAleatorio;
-            carton[i, j] = valorAleatorio.ToString();
+            valorAleatorio = regresaAleatorio(guardarAleatorio, 10 * columna + 1, 10 * columna + 10);
+            // Pone numero aleatorio.
+            carton[fila, columna] = valorAleatorio.ToString();
+            guardarAleatorio[fila] = valorAleatorio.ToString();
         }
     }
+    // Termina ciclo del carton[c] con numeros aleatorios.
 
-    // Mostramos el carton
+    // Inicia ciclo para colocar 12 espacios en blanco al carton.
+    string[] vacios = new string[12];
+    int filaEspacio;
+    int v = 0;
+
+    for (int n = 0; n < vacios.Length; n++)
+    {
+        valorAleatorio = regresaAleatorio(vacios, 0, 9);
+        filaEspacio = n / 4;
+        carton[filaEspacio, valorAleatorio] = " ";
+        if (n == 8)
+        {           
+            Array.Clear(vacios, 0, vacios.Length);
+            v = 0;
+        }
+        vacios[v++] = valorAleatorio.ToString();
+    }
+    // Termina ciclo espacios en blanco.
+
+    // Imprime en pantalla el carton.
     Console.WriteLine($"\n"   + new string(' ',52) + $"Carton #{c + 1}");
     Console.Write("\n\t\t\t+" + new string('=',62) + "+");
-    for (int i = 0; i < carton.GetLength(0); i++)
+
+    for (int fila = 0; fila < carton.GetLength(0); fila++)
     {
         Console.Write("\n\t\t\t|");
-        for (int j = 0; j < carton.GetLength(1); j++)
+        for (int columna = 0; columna < carton.GetLength(1); columna++)
         {
-            Console.Write($"  {carton[i, j].PadLeft(2)}  |");
+            Console.Write($"  {carton[fila, columna].PadLeft(2)}  |");
         }
         Console.Write("\n\t\t\t+" + new string('=', 62) + "+");
     }
@@ -48,43 +67,14 @@ for (int c = 0; c < totalCartones; c++)
 
 Console.ReadKey();
 
-
-
-/**
-// Construye los cartones.
-for (int c = 0; c < totalCartones; c++)
+// Funcion regresaAleatorio: devuelve un único numero aleatorio.
+int regresaAleatorio(string[] vector, int minimo, int maximo)
 {
-    // Llena los cartones con numeros aleatorios.
-    for (int j = 0; j < carton.GetLength(0); j++)
+    valorAleatorio = crearAleatorio.Next(minimo, maximo);
+    // Cicla mientras numero repetido.
+    while (Array.IndexOf(vector, valorAleatorio.ToString()) >= 0)
     {
-        Array.Clear(guardaAleatorio, 0, guardaAleatorio.Length);
-        for (int i = 0; i < carton.GetLength(1); i++)
-        {
-            // Cicla si encuentra numero repetido.
-            valorAleatorio = aleatorio.Next(10 * j + 1, 10 * j + 10);
-            while (Array.IndexOf(guardaAleatorio, valorAleatorio) >= 0)
-            {
-                valorAleatorio = aleatorio.Next(10 * j + 1, 10 * j + 10);
-            }
-            guardaAleatorio[i] = valorAleatorio;
-            carton[j, i] = valorAleatorio.ToString();
-        }
+        valorAleatorio = crearAleatorio.Next(minimo, maximo);
     }
-
-    // Mostramos el carton
-    Console.WriteLine($"\n\t\t\t\t\t\t\tCarton #{c + 1}");
-    Console.Write("\n\t\t\t\t+" + new string('=',52) + "+");
-    for (int i = 0; i < carton.GetLength(1); i++)
-    {
-        Console.Write("\n\t\t\t\t");
-        for (int j = 0; j < carton.GetLength(0); j++)
-        {
-            Console.Write($"| {carton[j, i].PadLeft(2)} |");
-        }
-        Console.Write("\n\t\t\t\t+" + new string('=', 52) + "+");
-    }
-    Console.WriteLine();
+    return valorAleatorio;
 }
-
-Console.ReadKey();
- **/
