@@ -1,0 +1,15 @@
+/Users/yo/Polo/Constructores/bin/Debug/net6.0/Constructores
+/Users/yo/Polo/Constructores/bin/Debug/net6.0/Constructores.deps.json
+/Users/yo/Polo/Constructores/bin/Debug/net6.0/Constructores.runtimeconfig.json
+/Users/yo/Polo/Constructores/bin/Debug/net6.0/Constructores.dll
+/Users/yo/Polo/Constructores/bin/Debug/net6.0/Constructores.pdb
+/Users/yo/Polo/Constructores/obj/Debug/net6.0/Constructores.csproj.AssemblyReference.cache
+/Users/yo/Polo/Constructores/obj/Debug/net6.0/Constructores.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yo/Polo/Constructores/obj/Debug/net6.0/Constructores.AssemblyInfoInputs.cache
+/Users/yo/Polo/Constructores/obj/Debug/net6.0/Constructores.AssemblyInfo.cs
+/Users/yo/Polo/Constructores/obj/Debug/net6.0/Constructores.csproj.CoreCompileInputs.cache
+/Users/yo/Polo/Constructores/obj/Debug/net6.0/Constructores.dll
+/Users/yo/Polo/Constructores/obj/Debug/net6.0/refint/Constructores.dll
+/Users/yo/Polo/Constructores/obj/Debug/net6.0/Constructores.pdb
+/Users/yo/Polo/Constructores/obj/Debug/net6.0/Constructores.genruntimeconfig.cache
+/Users/yo/Polo/Constructores/obj/Debug/net6.0/ref/Constructores.dll
