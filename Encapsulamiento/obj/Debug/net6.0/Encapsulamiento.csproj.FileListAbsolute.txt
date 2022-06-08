@@ -1,0 +1,15 @@
+/Users/yo/Polo/Encapsulamiento/bin/Debug/net6.0/Encapsulamiento
+/Users/yo/Polo/Encapsulamiento/bin/Debug/net6.0/Encapsulamiento.deps.json
+/Users/yo/Polo/Encapsulamiento/bin/Debug/net6.0/Encapsulamiento.runtimeconfig.json
+/Users/yo/Polo/Encapsulamiento/bin/Debug/net6.0/Encapsulamiento.dll
+/Users/yo/Polo/Encapsulamiento/bin/Debug/net6.0/Encapsulamiento.pdb
+/Users/yo/Polo/Encapsulamiento/obj/Debug/net6.0/Encapsulamiento.csproj.AssemblyReference.cache
+/Users/yo/Polo/Encapsulamiento/obj/Debug/net6.0/Encapsulamiento.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yo/Polo/Encapsulamiento/obj/Debug/net6.0/Encapsulamiento.AssemblyInfoInputs.cache
+/Users/yo/Polo/Encapsulamiento/obj/Debug/net6.0/Encapsulamiento.AssemblyInfo.cs
+/Users/yo/Polo/Encapsulamiento/obj/Debug/net6.0/Encapsulamiento.csproj.CoreCompileInputs.cache
+/Users/yo/Polo/Encapsulamiento/obj/Debug/net6.0/Encapsulamiento.dll
+/Users/yo/Polo/Encapsulamiento/obj/Debug/net6.0/refint/Encapsulamiento.dll
+/Users/yo/Polo/Encapsulamiento/obj/Debug/net6.0/Encapsulamiento.pdb
+/Users/yo/Polo/Encapsulamiento/obj/Debug/net6.0/Encapsulamiento.genruntimeconfig.cache
+/Users/yo/Polo/Encapsulamiento/obj/Debug/net6.0/ref/Encapsulamiento.dll
