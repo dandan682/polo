@@ -1,24 +1,24 @@
 ﻿using System;
-namespace Billetera
+namespace Billeteras
 {
 	internal class Billetera
 	{
-        public int BilleteDe10   { get; set; }
-		public int BilleteDe20   { get; set; }
-		public int BilleteDe50   { get; set; }
-		public int BilleteDe100  { get; set; }
-		public int BilleteDe200  { get; set; }
-		public int BilleteDe500  { get; set; }
-		public int BilleteDe1000 { get; set; }
+        public uint BilleteDe10   { get; set; }
+		public uint BilleteDe20   { get; set; }
+		public uint BilleteDe50   { get; set; }
+		public uint BilleteDe100  { get; set; }
+		public uint BilleteDe200  { get; set; }
+		public uint BilleteDe500  { get; set; }
+		public uint BilleteDe1000 { get; set; }
 
 		public Billetera(
-			int billeteDe10,
-			int billeteDe20,
-			int billeteDe50,
-			int billeteDe100,
-			int billeteDe200,
-			int billeteDe500,
-			int billeteDe1000
+			uint billeteDe10,
+			uint billeteDe20,
+			uint billeteDe50,
+			uint billeteDe100,
+			uint billeteDe200,
+			uint billeteDe500,
+			uint billeteDe1000
 			)
 		{
 			BilleteDe10   = billeteDe10;
@@ -28,6 +28,17 @@ namespace Billetera
 			BilleteDe200  = billeteDe200;
 			BilleteDe500  = billeteDe500;
 			BilleteDe1000 = billeteDe1000;
+		}
+
+		private void VaciarBilletera()
+        {
+			BilleteDe10   = 0;
+			BilleteDe20   = 0;
+			BilleteDe50   = 0;
+			BilleteDe100  = 0;
+			BilleteDe200  = 0;
+			BilleteDe500  = 0;
+			BilleteDe1000 = 0;
 		}
 
 		public decimal Total()
@@ -52,9 +63,9 @@ namespace Billetera
 				BilleteDe500  + b.BilleteDe500,
 				BilleteDe1000 + b.BilleteDe1000
 				);
-				return nuevaBilletera;
-            }
+			VaciarBilletera();
+			b.VaciarBilletera();
+			return nuevaBilletera;
         }
 	}
 }
-

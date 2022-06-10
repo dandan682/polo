@@ -1,0 +1,15 @@
+/Users/yo/Polo/Billetera/bin/Debug/net6.0/Billetera
+/Users/yo/Polo/Billetera/bin/Debug/net6.0/Billetera.deps.json
+/Users/yo/Polo/Billetera/bin/Debug/net6.0/Billetera.runtimeconfig.json
+/Users/yo/Polo/Billetera/bin/Debug/net6.0/Billetera.dll
+/Users/yo/Polo/Billetera/bin/Debug/net6.0/Billetera.pdb
+/Users/yo/Polo/Billetera/obj/Debug/net6.0/Billetera.csproj.AssemblyReference.cache
+/Users/yo/Polo/Billetera/obj/Debug/net6.0/Billetera.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yo/Polo/Billetera/obj/Debug/net6.0/Billetera.AssemblyInfoInputs.cache
+/Users/yo/Polo/Billetera/obj/Debug/net6.0/Billetera.AssemblyInfo.cs
+/Users/yo/Polo/Billetera/obj/Debug/net6.0/Billetera.csproj.CoreCompileInputs.cache
+/Users/yo/Polo/Billetera/obj/Debug/net6.0/Billetera.dll
+/Users/yo/Polo/Billetera/obj/Debug/net6.0/refint/Billetera.dll
+/Users/yo/Polo/Billetera/obj/Debug/net6.0/Billetera.pdb
+/Users/yo/Polo/Billetera/obj/Debug/net6.0/Billetera.genruntimeconfig.cache
+/Users/yo/Polo/Billetera/obj/Debug/net6.0/ref/Billetera.dll
