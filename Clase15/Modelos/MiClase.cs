@@ -11,21 +11,3 @@ namespace Clase15.Modelos
 		}
 	}
 }
-
-
-/*
-var miLista = new List<MiClase>();
-miLista.Add(miPrimerClase);
-miLista.Add(miSegundaClase);
-
-foreach (var item in miLista)
-{
-    Console.WriteLine((item.Nombre);
-    if (item.Id == 1)
-    {
-        item.Nombre = "ROBERTO";
-    }
-}
-Console.WriteLine(miPrimerClase.Nombre);
-Console.WriteLine(miSegundaClase.Nombre);
-*/
