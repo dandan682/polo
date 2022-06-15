@@ -55,3 +55,11 @@ var primerPersona = new Persona
     Nombre   = "Joaquin"
 };
 
+
+var primerDocente = new Docente
+{
+    Salario  = 70000,
+    Apellido = "Juan Pablo",
+    Nombre = "Ferreyra"
+};
+
