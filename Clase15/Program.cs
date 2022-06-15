@@ -17,7 +17,6 @@ miSegundaClase.Nombre = "Andres Gomez";
 Console.WriteLine();
 Console.WriteLine(miPrimerClase.Nombre);
 Console.WriteLine(miSegundaClase.Nombre);
-
  */
 
 var miPrimerClase = new MiClase
@@ -40,7 +39,7 @@ miLista.Add(miSegundaClase);
 foreach (var item in miLista)
 {
     Console.WriteLine(item.Nombre);
-    if (item.Id == 2)
+    if (item.Id == 1)
     {
         item.Nombre = "ROBERTO";
     }
