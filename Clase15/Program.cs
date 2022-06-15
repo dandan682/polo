@@ -19,6 +19,7 @@ Console.WriteLine(miPrimerClase.Nombre);
 Console.WriteLine(miSegundaClase.Nombre);
  */
 
+/*
 var miPrimerClase = new MiClase
 {
     Id = 1,
@@ -46,3 +47,11 @@ foreach (var item in miLista)
 }
 Console.WriteLine(miPrimerClase.Nombre);
 Console.WriteLine(miSegundaClase.Nombre);
+ */
+
+var primerPersona = new Persona
+{
+    Apellido = "Mateos",
+    Nombre   = "Joaquin"
+};
+
