@@ -1,0 +1,15 @@
+/Users/yo/Polo/Clase15/bin/Debug/net6.0/Clase15
+/Users/yo/Polo/Clase15/bin/Debug/net6.0/Clase15.deps.json
+/Users/yo/Polo/Clase15/bin/Debug/net6.0/Clase15.runtimeconfig.json
+/Users/yo/Polo/Clase15/bin/Debug/net6.0/Clase15.dll
+/Users/yo/Polo/Clase15/bin/Debug/net6.0/Clase15.pdb
+/Users/yo/Polo/Clase15/obj/Debug/net6.0/Clase15.csproj.AssemblyReference.cache
+/Users/yo/Polo/Clase15/obj/Debug/net6.0/Clase15.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yo/Polo/Clase15/obj/Debug/net6.0/Clase15.AssemblyInfoInputs.cache
+/Users/yo/Polo/Clase15/obj/Debug/net6.0/Clase15.AssemblyInfo.cs
+/Users/yo/Polo/Clase15/obj/Debug/net6.0/Clase15.csproj.CoreCompileInputs.cache
+/Users/yo/Polo/Clase15/obj/Debug/net6.0/Clase15.dll
+/Users/yo/Polo/Clase15/obj/Debug/net6.0/refint/Clase15.dll
+/Users/yo/Polo/Clase15/obj/Debug/net6.0/Clase15.pdb
+/Users/yo/Polo/Clase15/obj/Debug/net6.0/Clase15.genruntimeconfig.cache
+/Users/yo/Polo/Clase15/obj/Debug/net6.0/ref/Clase15.dll

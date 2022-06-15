@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Modelos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modelos\" />
+  </ItemGroup>
 </Project>
