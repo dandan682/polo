@@ -79,6 +79,9 @@ personas.Add(primerAlumno);
 foreach (var persona in personas)
 {
     Console.WriteLine(persona.Nombre);
+    if (persona.GetType() == typeof(Docente))
+    {
+        var docente = (Docente)persona;
+        Console.WriteLine(docente.Salario);
+    }
 }
-
-
