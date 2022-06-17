@@ -63,3 +63,14 @@ var primerDocente = new Docente
     Nombre = "Ferreyra"
 };
 
+var primerAlumno = new Alumno
+{
+    Legajo = 1234,
+    Apellido = "Rodriguez",
+    Nombre = "Ricardo"
+};
+
+var personas = new List<Persona>();
+personas.Add(primerAlumno);
+
+
