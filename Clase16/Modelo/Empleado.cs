@@ -1,7 +1,9 @@
 ﻿using System;
 namespace Clase16.Modelo
 {
-	public class Empleado: Persona
+    // Sealed signfica que esta sea la linea final de herencia.
+    // La clase no podra ser heredada mas.
+	public sealed class Empleado: Persona
 	{
         private int _salarioBruto;
 

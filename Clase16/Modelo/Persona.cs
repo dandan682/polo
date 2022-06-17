@@ -1,7 +1,9 @@
 ﻿using System;
 namespace Clase16.Modelo
 {
-	public class Persona
+    // Abstract da la caracteristica de que no se puede instanciar la clase.
+    
+	public abstract class Persona
 	{
         private DateTime _fechaNacimiento;
         private int _numeroDeDocumento;
