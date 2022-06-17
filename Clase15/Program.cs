@@ -82,6 +82,6 @@ foreach (var persona in personas)
     if (persona.GetType() == typeof(Docente))
     {
         var docente = (Docente)persona;
-        Console.WriteLine(docente.Salario);
+        Console.WriteLine($"  {docente.Salario}");
     }
 }
