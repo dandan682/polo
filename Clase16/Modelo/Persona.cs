@@ -30,14 +30,24 @@ namespace Clase16.Modelo
             }
             set
             {
-                _numeroDeDocumento = int.TryParse();
+                int numeroDeDocumentoConvertido;
+                var sePuedeConvertir = int.TryParse(value, out numeroDeDocumentoConvertido);
+                if (!sePuedeConvertir)
+                {
+                    _numeroDeDocumento = 0;
+                }
+                else
+                {
+                    _numeroDeDocumento = numeroDeDocumentoConvertido;
+                }
             }
         }
 
-
-        public Persona()
-		{
-		}
+    public int ObtenerEdad()
+        {
+            var fechaHoraActual = DateTime Today;
+            var edadDateTime = fechaHoraActual - _fechaNacimiento;
+            return (int)edadDateTime.TotalDays / 365;
+        }
 	}
 }
-
