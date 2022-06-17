@@ -59,8 +59,9 @@ var primerPersona = new Persona
 var primerDocente = new Docente
 {
     Salario  = 70000,
-    Apellido = "Juan Pablo",
-    Nombre = "Ferreyra"
+    Apellido = "Ferreyra",
+    Nombre = "Juan Pablo"
+
 };
 
 var primerAlumno = new Alumno
@@ -71,6 +72,13 @@ var primerAlumno = new Alumno
 };
 
 var personas = new List<Persona>();
+personas.Add(primerPersona);
+personas.Add(primerDocente);
 personas.Add(primerAlumno);
+
+foreach (var persona in personas)
+{
+    Console.WriteLine(persona.Nombre);
+}
 
 
