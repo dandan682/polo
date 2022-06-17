@@ -4,6 +4,7 @@ namespace Clase16.Modelo
 	public class Persona
 	{
         private DateTime _fechaNacimiento;
+        private int _numeroDeDocumento;
 
         public string Nombre { get; set; }
 
@@ -17,11 +18,21 @@ namespace Clase16.Modelo
             }
             set
             {
-
+                _fechaNacimiento = Convert.ToDateTime(value);
             }
         }
 
-        public string NumeroDeDocumento { get; set; }
+        public string NumeroDeDocumento
+        {
+            get
+            {
+                return _numeroDeDocumento.ToString();
+            }
+            set
+            {
+                _numeroDeDocumento = int.TryParse();
+            }
+        }
 
 
         public Persona()
