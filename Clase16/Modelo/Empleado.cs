@@ -3,6 +3,7 @@ namespace Clase16.Modelo
 {
     // Sealed signfica que esta sea la linea final de herencia.
     // La clase no podra ser heredada mas.
+
 	public sealed class Empleado: Persona
 	{
         private int _salarioBruto;
