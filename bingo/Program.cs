@@ -24,14 +24,7 @@ do
             for (int fila = 0; fila < carton.GetLength(0); fila++)
             {
                 // Numero aleatorio para columna 0 va de 1 a 9. Para columna 8 va de 80 a 90.
-                if (columna == 0)
-                {
-                    valorAleatorio = buscarAleatorio(guardarAleatorios, 1, 10);
-                }
-                else
-                {
-                    valorAleatorio = buscarAleatorio(guardarAleatorios, columna * 10, columna * 10 + 10 + (columna / 8));
-                }
+                valorAleatorio = buscarAleatorio(guardarAleatorios, columna * 10 + 1 / (columna + 1), columna * 10 + 10 + (columna / 8));
                 // Asigna el numero.
                 carton[fila, columna]   = valorAleatorio.ToString();
                 guardarAleatorios[fila] = valorAleatorio.ToString();
