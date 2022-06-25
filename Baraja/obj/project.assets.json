@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yo/Polo/Baraja/Baraja.csproj",
-      "projectName": "Baraja",
-      "projectPath": "/Users/yo/Polo/Baraja/Baraja.csproj",
+      "projectUniqueName": "/Users/yo/Polo/Baraja/Barajas.csproj",
+      "projectName": "Barajas",
+      "projectPath": "/Users/yo/Polo/Baraja/Barajas.csproj",
       "packagesPath": "/Users/yo/.nuget/packages/",
       "outputPath": "/Users/yo/Polo/Baraja/obj/",
       "projectStyle": "PackageReference",

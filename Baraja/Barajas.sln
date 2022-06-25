@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1700.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baraja", "Baraja.csproj", "{69C9B6C3-33CB-4A69-8929-B5964A0514DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barajas", "Barajas.csproj", "{69C9B6C3-33CB-4A69-8929-B5964A0514DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

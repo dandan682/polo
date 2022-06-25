@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Baraja.Modelo
+namespace Barajas.Modelo
 {
     public class Carta
     {

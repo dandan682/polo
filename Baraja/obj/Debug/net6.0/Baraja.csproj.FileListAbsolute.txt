@@ -1,0 +1,5 @@
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Baraja.csproj.AssemblyReference.cache
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Baraja.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Baraja.AssemblyInfoInputs.cache
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Baraja.AssemblyInfo.cs
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Baraja.csproj.CoreCompileInputs.cache

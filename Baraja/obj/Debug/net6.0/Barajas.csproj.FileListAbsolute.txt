@@ -1,0 +1,15 @@
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Barajas.csproj.AssemblyReference.cache
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Barajas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Barajas.AssemblyInfoInputs.cache
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Barajas.AssemblyInfo.cs
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Barajas.csproj.CoreCompileInputs.cache
+/Users/yo/Polo/Baraja/bin/Debug/net6.0/Barajas
+/Users/yo/Polo/Baraja/bin/Debug/net6.0/Barajas.deps.json
+/Users/yo/Polo/Baraja/bin/Debug/net6.0/Barajas.runtimeconfig.json
+/Users/yo/Polo/Baraja/bin/Debug/net6.0/Barajas.dll
+/Users/yo/Polo/Baraja/bin/Debug/net6.0/Barajas.pdb
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Barajas.dll
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/refint/Barajas.dll
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Barajas.pdb
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/Barajas.genruntimeconfig.cache
+/Users/yo/Polo/Baraja/obj/Debug/net6.0/ref/Barajas.dll

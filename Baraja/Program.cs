@@ -1,6 +1,7 @@
 ﻿using System;
+using Barajas.Modelo;
 
-namespace Baraja
+namespace Barajas
 {
     class Program
     {
