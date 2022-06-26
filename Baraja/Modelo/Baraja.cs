@@ -105,6 +105,7 @@ namespace Barajas.Modelo
             for (i = 0; i < 48; i++)
             {
                 posicion = r.Next(0, 48);
+                Console.WriteLine($"posicion: {posicion}");
                 baraja.Insert(posicion, baraja[0]);
                 baraja.Remove(baraja[0]);
             }
