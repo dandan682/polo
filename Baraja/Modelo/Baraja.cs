@@ -55,6 +55,7 @@ namespace Barajas.Modelo
         }
 
         //Coge una carta de la posicion indicada por parámetro
+
         public void cogeCarta(int n)
         {
             /* Es como el método anterior, pero en lugar de operar con la carta baraja[0] se opera con baraja[n] donde
