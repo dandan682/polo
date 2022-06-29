@@ -3,17 +3,16 @@ namespace Barajas.Modelo
 {
     public class Carta
     {
-
-        //MIEMBROS
         int numero;
         int palo;
-        string[] palos = { "Oros", "Copas", "Espadas", "Bastos" };
+        // string[] palos = { "Oros", "Copas", "Espadas", "Bastos" };
+        string[] palos = { "Espadas", "Bastos", "Oros", "Copas" };
 
         /*
-        palos[0] es Oros
-        palos[1] es Copas
-        palos[2] es Espadas
-        palos[3] es Bastos
+        palos[0] es Espadas
+        palos[1] es Bastos 
+        palos[2] es Oros 
+        palos[3] es Copas
         */
 
         //CONSTRUCTOR

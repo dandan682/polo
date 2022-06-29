@@ -3,9 +3,9 @@ namespace Barajas.Modelo
 {
     public class Baraja
     {
-        //MIEMBROS
         //Lista de cartas
         List<Carta> baraja = new List<Carta>();
+
         //Carta
         Carta card;
 
@@ -13,19 +13,23 @@ namespace Barajas.Modelo
         public Baraja()
         {
             //Variables usadas en los for
-            int i, j;
+            // int i, j;
 
             /* 2 bucles for anidados, fuera el de los
              palos que realiza el ciclo 4 veces, por
              12 que hace el de dentro, son las 48 cartas
              de la baraja */
-            for (j = 0; j < 4; j++)
+            for (int j = 0; j < 4; j++)
             {
-                for (i = 0; i < 12; i++)
+                for (int i = 0; i < 12; i++)
                 {
                     /* Se crea una carta cada vez ya que el valor (i + 1) va de 1 a 12. La primera vez que este bucle se repite
                      las 12 veces, crea todas las cartas del palo 0 que es "Oros". Luego las 12 de "Copas" y así hasta crear
                      todas de todos los palos. */
+                    if ((i == 7) | (i == 8)) {
+                        continue;
+                    }
+
                     card = new Carta(i + 1, j);
                     //Cada carta creada reescribe la anterior, pero como se añaden a la lista no perdemos esos datos.
 
@@ -35,7 +39,6 @@ namespace Barajas.Modelo
             }
         }
 
-        //MÉTODOS
         //Escribe el número de cartas que hay en la baraja
         public void numeroCartas()
         {
@@ -103,9 +106,9 @@ namespace Barajas.Modelo
             int posicion;
             int i;
 
-            for (i = 0; i < 48; i++)
+            for (i = 0; i < 40; i++)
             {
-                posicion = r.Next(0, 48);
+                posicion = r.Next(0, 40);
                 Console.WriteLine($"posicion: {posicion}");
                 baraja.Insert(posicion, baraja[0]);
                 baraja.Remove(baraja[0]);
