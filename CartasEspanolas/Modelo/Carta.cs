@@ -1,7 +1,7 @@
 ﻿using System;
 namespace CartasEspañolas.Modelo
 {
-    public class Carta
+    internal class Carta
     {
         string[] palos = { "Espadas", "Bastos", "Oros", "Copas" };
         int numero;
