@@ -6,6 +6,9 @@ namespace Barajas.Modelo
         //Lista de cartas
         List<Carta> baraja = new List<Carta>();
 
+        //Lista de monton
+        List<Carta> monton = new List<Carta>();
+
         //Carta
         Carta card;
 
@@ -47,13 +50,16 @@ namespace Barajas.Modelo
             Console.WriteLine("En la baraja hay " + baraja.Count + " cartas.");
         }
 
-        //Coge la primera carta de la baraja y la elimina de la lista
+        //Coge la primera carta de la baraja, la agrega al monton y la elimina de la lista.
         public void SiguienteCarta()
         {
             Console.WriteLine("Has robado una carta: ");
 
             //Se llama al método escribeCarta de la clase carta ya que baraja[0] es un objeto carta
             baraja[0].escribeCarta();
+
+            //Se adiciona la carta al monton
+            monton.Add(baraja[0]);
 
             //Se elimina la carta que hemos escrito por si se roba de nuevo, nos salga la siguiente
             baraja.Remove(baraja[0]);
@@ -69,6 +75,7 @@ namespace Barajas.Modelo
                 {
                     Console.Write("carta: " + i + " ");
                     baraja[0].escribeCarta();
+                    monton.Add(baraja[0]);
                     baraja.Remove(baraja[0]);
                     CartasDisponibles();
                 }
@@ -83,6 +90,7 @@ namespace Barajas.Modelo
         public void MostrarBaraja()
         {
             //Bucle for para recorrer la lista
+            Console.WriteLine("Total cartas mazo: " + baraja.Count);
             for (int i = 0; i < baraja.Count; i++)
             {
                 //Escribe la posición de la carta (i + 1)
@@ -94,6 +102,22 @@ namespace Barajas.Modelo
             }
         }
 
+        //Escribe todas las cartas que hay en la baraja
+        public void CartasMonton()
+        {
+            //Bucle for para recorrer la lista
+            Console.WriteLine("Total cartas monton: " + monton.Count);
+            for (int i = 0; i < monton.Count; i++)
+            {
+                //Escribe la posición de la carta (i + 1)
+                //Utilizamos "Write" en lugar de "WriteLine" para que no haga un salto de línea
+                Console.Write((i + 1) + ". ");
+
+                //Escribe la carta de la posición i de la lista
+                monton[i].escribeCarta();
+            }
+        }
+
         //Mezcla (baraja) las cartas en la lista
         public void Barajar()
         {
@@ -102,9 +126,10 @@ namespace Barajas.Modelo
             int posicion;
             int i;
 
-            for (i = 0; i < 40; i++)
+            Console.WriteLine("Total de cartas: " + baraja.Count);
+            for (i = 0; i < baraja.Count; i++)
             {
-                posicion = r.Next(0, 40);
+                posicion = r.Next(0, baraja.Count);
                 Console.WriteLine($"posicion: {posicion}");
                 baraja.Insert(posicion, baraja[0]);
                 baraja.Remove(baraja[0]);

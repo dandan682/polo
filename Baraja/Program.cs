@@ -17,11 +17,14 @@ namespace Barajas
             baraja.Barajar();
             baraja.MostrarBaraja();
             baraja.SiguienteCarta();
+            baraja.CartasMonton();
             // baraja.cogeCarta(5);
             baraja.CartasDisponibles();
-            baraja.DarCartas(39);
+            baraja.DarCartas(10);
             // baraja.cogeCartaAlAzar();
             baraja.CartasDisponibles();
+            baraja.MostrarBaraja();
+            baraja.CartasMonton();
 
             Console.ReadKey();
         }
