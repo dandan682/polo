@@ -13,13 +13,15 @@ namespace Barajas
 
             /* Llamamos a los métodos como queramos, os dejo esta secuencia, pero jugad con el orden y valores para ver
             otros resultados */
-            baraja.escribeBaraja();
+            baraja.MostrarBaraja();
             baraja.Barajar();
-            baraja.escribeBaraja();
-            baraja.robaCarta();
-            baraja.cogeCarta(5);
-            baraja.cogeCartaAlAzar();
-            baraja.numeroCartas();
+            baraja.MostrarBaraja();
+            baraja.SiguienteCarta();
+            // baraja.cogeCarta(5);
+            baraja.CartasDisponibles();
+            baraja.DarCartas(39);
+            // baraja.cogeCartaAlAzar();
+            baraja.CartasDisponibles();
 
             Console.ReadKey();
         }

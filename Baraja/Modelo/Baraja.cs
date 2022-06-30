@@ -26,6 +26,8 @@ namespace Barajas.Modelo
                     /* Se crea una carta cada vez ya que el valor (i + 1) va de 1 a 12. La primera vez que este bucle se repite
                      las 12 veces, crea todas las cartas del palo 0 que es "Oros". Luego las 12 de "Copas" y así hasta crear
                      todas de todos los palos. */
+
+                    // Elimina carta numero 8 y 9 
                     if ((i == 7) | (i == 8)) {
                         continue;
                     }
@@ -40,13 +42,13 @@ namespace Barajas.Modelo
         }
 
         //Escribe el número de cartas que hay en la baraja
-        public void numeroCartas()
+        public void CartasDisponibles()
         {
             Console.WriteLine("En la baraja hay " + baraja.Count + " cartas.");
         }
 
         //Coge la primera carta de la baraja y la elimina de la lista
-        public void robaCarta()
+        public void SiguienteCarta()
         {
             Console.WriteLine("Has robado una carta: ");
 
@@ -57,37 +59,31 @@ namespace Barajas.Modelo
             baraja.Remove(baraja[0]);
         }
 
-        //Coge una carta de la posicion indicada por parámetro
-
-        public void cogeCarta(int n)
+        // Dar n cartas
+        public void DarCartas(int n)
         {
-            /* Es como el método anterior, pero en lugar de operar con la carta baraja[0] se opera con baraja[n] donde
-             n es el valor dado a la función */
-            Console.WriteLine("Has cogido la carta de la posición: " + n);
-            baraja[n].escribeCarta();
-            baraja.Remove(baraja[n]);
-        }
-
-        //Coge una carta al azar
-        public void cogeCartaAlAzar()
-        {
-            /* Basado en el método anterior pero ahora el valor n es obtenido aleatoriamente, debe ser un valor entre 0 y
-             el número de elementos que haya en la lista */
-            Random r = new Random();
-            int n = r.Next(0, baraja.Count);
-
-            Console.WriteLine("Has cogido una carta al azar: ");
-            baraja[n].escribeCarta();
-            baraja.Remove(baraja[n]);
+            if (n <= baraja.Count)
+            {
+                Console.WriteLine("Cartas solicitadas: " + n);
+                for (int i = 0; i < n; i++)
+                {
+                    Console.Write("carta: " + i + " ");
+                    baraja[0].escribeCarta();
+                    baraja.Remove(baraja[0]);
+                    CartasDisponibles();
+                }
+            }
+           else
+            {
+                Console.WriteLine("Hay menos cartas de las solicitadas!!!");
+            }
         }
 
         //Escribe todas las cartas que hay en la baraja
-        public void escribeBaraja()
+        public void MostrarBaraja()
         {
-            int i;
-
             //Bucle for para recorrer la lista
-            for (i = 0; i < baraja.Count; i++)
+            for (int i = 0; i < baraja.Count; i++)
             {
                 //Escribe la posición de la carta (i + 1)
                 //Utilizamos "Write" en lugar de "WriteLine" para que no haga un salto de línea
