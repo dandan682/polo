@@ -4,7 +4,7 @@ namespace Barajas.Modelo
     public class Baraja
     {
         //Lista de cartas
-        List<Carta> baraja = new List<Carta>();
+        public List<Carta> baraja = new List<Carta>();
 
         //Lista de monton
         List<Carta> monton = new List<Carta>();
