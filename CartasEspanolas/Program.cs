@@ -1,24 +1,23 @@
 ﻿using System;
 using CartasEspañolas.Modelo;
 
+// Ejercicio clase 14 - Cartas españolas.
 var baraja = new Baraja();
 int opcion;
-bool salir;
 
 Console.Clear();
 do
 {
-    salir = false;
-    Console.WriteLine();
-    Console.WriteLine("**********************************");
-    Console.WriteLine("* 1 - Barajar                    *");
-    Console.WriteLine("* 2 - Mostrar siguiente carta    *");
-    Console.WriteLine("* 3 - Mostrar cartas disponibles *");
-    Console.WriteLine("* 4 - Dar cartas                 *");
-    Console.WriteLine("* 5 - Mostrar cartas del montón  *");
-    Console.WriteLine("* 6 - Mostrar baraja             *");
-    Console.WriteLine("* 7 - Salir                      *");
-    Console.WriteLine("**********************************");
+    Console.WriteLine("\n\tCARTAS ESPAÑOLAS");
+    Console.WriteLine("+--------------------------------+");
+    Console.WriteLine("| 1 - Barajar                    |");
+    Console.WriteLine("| 2 - Mostrar siguiente carta    |");
+    Console.WriteLine("| 3 - Mostrar cartas disponibles |");
+    Console.WriteLine("| 4 - Dar cartas                 |");
+    Console.WriteLine("| 5 - Mostrar cartas del montón  |");
+    Console.WriteLine("| 6 - Mostrar baraja             |");
+    Console.WriteLine("| 7 - Salir                      |");
+    Console.WriteLine("+--------------------------------+");
     Console.Write("Digite opción: ");
     opcion = Int32.Parse(Console.ReadLine());
     Console.WriteLine();
@@ -46,26 +45,10 @@ do
             baraja.MostrarBaraja();
             break;
         case 7:
-            salir = true;
-            Console.WriteLine("Salida...");
+            Console.WriteLine("Fin.");
             break;
         default:
-            Console.WriteLine("Opción fuera de rango.");
+            Console.WriteLine("Opción fuera de rango!!!");
             break;
     }
-} while (!salir);
-
-/**
-baraja.MostrarBaraja();
-baraja.Barajar();
-baraja.MostrarBaraja();
-baraja.SiguienteCarta();
-baraja.CartasMonton();
-// baraja.cogeCarta(5);
-baraja.CartasDisponibles();
-baraja.DarCartas(10);
-// baraja.cogeCartaAlAzar();
-baraja.CartasDisponibles();
-baraja.MostrarBaraja();
-baraja.CartasMonton();
-**/
+} while (opcion != 7);

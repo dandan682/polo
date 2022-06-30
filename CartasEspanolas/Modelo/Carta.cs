@@ -13,8 +13,8 @@ namespace CartasEspañolas.Modelo
         // palos[3] es Copas
 
         // CONSTRUCTOR
-        // Le pasamos por parámetro el número en la variable n
-        // y el palo (valor de 0 a 4) en la variable p
+        // Le pasamos por parámetro el número de carta
+        // y el palo
         public Carta(int n, int p)
         {
             numero = n;
@@ -24,7 +24,7 @@ namespace CartasEspañolas.Modelo
         // MÉTODOS
         public void escribeCarta()
         {
-            Console.WriteLine(numero + " de " + palos[palo]);
+            Console.WriteLine($"{numero} de {palos[palo]}");
         }
     }
 }

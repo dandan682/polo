@@ -36,6 +36,7 @@ namespace CartasEspañolas.Modelo
             }
         }
 
+        // MÉTODOS
         // Escribe el número de cartas que hay en la baraja.
         public void CartasDisponibles()
         {
@@ -60,7 +61,7 @@ namespace CartasEspañolas.Modelo
 
                 if (baraja.Count == 0)
                 {
-                    Console.WriteLine("\nEsta fue la última carta, ya no hay más.");
+                    Console.WriteLine("\nEsa fue la última carta, ya no hay más.");
                 }
             }
         }
@@ -71,14 +72,21 @@ namespace CartasEspañolas.Modelo
             if (n <= baraja.Count)
             {
                 Console.WriteLine($"\nCartas solicitadas: {n}\n");
-                for (int i = 0; i < n; i++)
+                if (n > 0)
                 {
-                    Console.Write($"{i + 1}. ");
-                    baraja[0].escribeCarta();
-                    // Adiciona la carta al montón.
-                    monton.Add(baraja[0]);
-                    // Quita carta de la baraja.
-                    baraja.Remove(baraja[0]);
+                    for (int i = 0; i < n; i++)
+                    {
+                        Console.Write($"{i + 1}. ");
+                        baraja[0].escribeCarta();
+                        // Adiciona la carta al montón.
+                        monton.Add(baraja[0]);
+                        // Quita carta de la baraja.
+                        baraja.Remove(baraja[0]);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Cantidad debe ser mayor de 0.");
                 }
             }
             else
@@ -130,7 +138,7 @@ namespace CartasEspañolas.Modelo
             Random r = new Random();
             int posicion;
 
-            // Posición aleatoria entre 0 y el numero de cartas en el mazo.
+            // Posición aleatoria entre 0 y el numero de cartas del mazo.
             // Inserta carta en posición.
             for (int i = 0; i < baraja.Count; i++)
             {
@@ -138,6 +146,7 @@ namespace CartasEspañolas.Modelo
                 baraja.Insert(posicion, baraja[0]);
                 baraja.Remove(baraja[0]);
             }
+            Console.WriteLine("El mazo ha quedado mezclado.");
         }
     }
 }
