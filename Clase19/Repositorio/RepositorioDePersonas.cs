@@ -1,4 +1,5 @@
 ﻿using System;
+using Clase19.Modelo;
 namespace Clase19.Repositorio
 {
     public class RepositorioDePersonas
