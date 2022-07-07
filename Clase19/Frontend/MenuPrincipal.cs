@@ -1,4 +1,6 @@
 ﻿using System;
+using Clase19.Repositorio;
+using Clase19.Modelo;
 namespace Clase19.Frontend
 {
     public class MenuPrincipal

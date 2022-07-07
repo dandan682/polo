@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Clase19.Reposistorio
+namespace Clase19.Repositorio
 {
     public class RepositorioDePersonas
     {
