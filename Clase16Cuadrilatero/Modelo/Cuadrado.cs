@@ -1,11 +1,15 @@
 ﻿using System;
 namespace Clase16Cuadrilatero.Modelo
 {
-    public class Cuadrado
+    public float class Cuadrado : Cuadrilatero
     {
         public Cuadrado()
         {
+            return CalcularArea()
         }
+
+      
+    
     }
 }
 
