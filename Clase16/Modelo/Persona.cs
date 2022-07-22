@@ -47,7 +47,7 @@ namespace Clase16.Modelo
 
     public int ObtenerEdad()
         {
-            var fechaHoraActual = DateTime Today;
+            var fechaHoraActual = DateTime.Today;
             var edadDateTime = fechaHoraActual - _fechaNacimiento;
             return (int)edadDateTime.TotalDays / 365;
         }

@@ -9,7 +9,7 @@ var repositorio = new RepositorioDePersonas();
 var usuarioNombre = "Ezeqiel";
 var usuarioApellido = "Etchecoin";
 
-repositorio.Insertar(new Empleado
+repositorio.Insertar(new Desempleado
 {
     Nombre = usuarioNombre,
     Apellido = usuarioApellido

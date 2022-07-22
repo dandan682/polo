@@ -3,3 +3,13 @@
 /Users/yo/Polo/Clase16/obj/Debug/net6.0/Clase16.AssemblyInfoInputs.cache
 /Users/yo/Polo/Clase16/obj/Debug/net6.0/Clase16.AssemblyInfo.cs
 /Users/yo/Polo/Clase16/obj/Debug/net6.0/Clase16.csproj.CoreCompileInputs.cache
+/Users/yo/Polo/Clase16/bin/Debug/net6.0/Clase16
+/Users/yo/Polo/Clase16/bin/Debug/net6.0/Clase16.deps.json
+/Users/yo/Polo/Clase16/bin/Debug/net6.0/Clase16.runtimeconfig.json
+/Users/yo/Polo/Clase16/bin/Debug/net6.0/Clase16.dll
+/Users/yo/Polo/Clase16/bin/Debug/net6.0/Clase16.pdb
+/Users/yo/Polo/Clase16/obj/Debug/net6.0/Clase16.dll
+/Users/yo/Polo/Clase16/obj/Debug/net6.0/refint/Clase16.dll
+/Users/yo/Polo/Clase16/obj/Debug/net6.0/Clase16.pdb
+/Users/yo/Polo/Clase16/obj/Debug/net6.0/Clase16.genruntimeconfig.cache
+/Users/yo/Polo/Clase16/obj/Debug/net6.0/ref/Clase16.dll
